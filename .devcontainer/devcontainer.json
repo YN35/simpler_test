@@ -1,0 +1,28 @@
+{
+    "image": "simpler",
+    "runArgs": [
+        "--name=ynn-simpler",
+        "--net=host",
+        "--ipc=host",
+        "--gpus",
+        "all",
+        "--privileged"
+    ],
+    "mounts": [
+        "source=/home/ynn/code/simpler,target=/root/simpler,type=bind",
+        "source=/data2/yn35,target=/data,type=bind"
+    ],
+    "workspaceFolder": "/root/simpler",
+    "customizations": {
+        "vscode": {
+            "extensions": [
+                "ms-python.python",
+                "ms-python.vscode-pylance",
+                "ms-python.black-formatter",
+                "ms-azuretools.vscode-docker",
+                "github.copilot",
+                "github.vscode-pull-request-github"
+            ]
+        }
+    }
+}
