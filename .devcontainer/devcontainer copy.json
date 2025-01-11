@@ -9,7 +9,8 @@
         "--privileged"
     ],
     "mounts": [
-        "source=C:/Users/noriy/code/simpler_test,target=/root/simpler,type=bind"
+        "source=/home/ynn/code/simpler,target=/root/simpler,type=bind",
+        "source=/data2/yn35,target=/data,type=bind"
     ],
     "workspaceFolder": "/root/simpler",
     "customizations": {
