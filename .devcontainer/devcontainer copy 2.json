@@ -9,9 +9,9 @@
         "--privileged"
     ],
     "mounts": [
-        "source=/home/yn35/code/simpler_test,target=/root/simpler_test,type=bind"
+        "source=C:/Users/noriy/code/simpler_test,target=/root/simpler,type=bind"
     ],
-    "workspaceFolder": "/root/simpler_test",
+    "workspaceFolder": "/root/simpler",
     "customizations": {
         "vscode": {
             "extensions": [
